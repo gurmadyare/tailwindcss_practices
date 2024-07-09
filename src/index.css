@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .special-button {
+    @apply my-10 block mx-auto bg-purple-500 text-white py-3 px-10 rounded-[24px] focus:ring-blue-100 active:bg-purple-700 duration-300 ease-in-out transform hover:scale-110
+  }
+}
